@@ -33,6 +33,19 @@
 
 <span style="color:red;">注: 每次切换分支前,提交工作区的修改</span>
 
+常见错误
+
+```js
+fatal: remote origin already exists.
+远程起源已存在 错误
+解决办法:
+删除远程:
+	git remote rm origin #删除
+    然后再添加远程库
+```
+
+
+
 
 
 ## 配置忽略文件
